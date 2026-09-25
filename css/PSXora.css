@@ -108,3 +108,15 @@ body{
   font-size: 25px;                /* Tamaño de la letra */
   font-weight: 700;               /* Grosor normal/medio de la letra */
 }
+
+
+@media (max-width: 768px) {
+  .card {
+    width: 45%; /* En celulares se verán 2 cuadros por fila */
+    /* Si prefieres que se vea 1 solo cuadro grande por fila, cambia 45% por 90% */
+  }
+
+  .card img {
+    max-width: 110px; /* Reducimos ligeramente la imagen para que encaje bien */
+  }
+}
