@@ -1,0 +1,109 @@
+:root {
+    --colorPrimario: #dd3a3a;
+    --colorSecundario: #ede6e6;
+    --colorTerceario: #7b4b4b;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+/* Cambia el color de fondo de la barra del menú */
+nav {
+  background-color: #1e293b; /* Un azul oscuro elegante */
+}
+
+/* Cambia el color de las letras de los enlaces del menú */
+nav a {
+  color: #ffffff; /* Letras blancas para que se distingan */
+  font-weight: 700;
+  font-size: 1.1em;
+}
+
+
+body{
+    background-color: #121212;
+}
+
+
+.titulo1 {
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+.titulo1{
+    color: var(--colorSecundario);
+}
+
+.parrafo {
+  font-weight: 700;
+  font-size: 1.5em;
+  color: #ffffff;
+  margin-bottom: 0.25rem;
+}
+
+.parrafo-selecion {
+  font-weight: 400;
+  font-size: 1.1em;
+  color: #ffffff;
+  margin-bottom: 0.25rem;
+  text-align: center;
+}
+
+.ps2 {
+  color: #ffffff;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.portada{
+    background-color: #13181f;
+    border: 1px solid #315da4;
+    border-radius: 12px;
+    padding: 1.5rem;
+    text-align: center;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.portada:hover {
+    transform: translate(-5px);
+    box-shadow: 0 10px 15px -3px;
+}
+
+
+.boton {
+  display: inline-block;
+  background-color: #ff8c00;
+  color: #ffffff;
+  padding: 8px 24px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+.boton:hover {
+  background-color: #e07b00;
+  color: #ffffff;
+}
+
+.subtitulo {
+  background-color: #111111;      
+  color: #ffffff;                 
+  padding: 12px 20px;             
+  border-left: 4px solid #ffffff;             
+}
+
+.subtitulo h2 {
+  margin: 0;                      /* Quita espacios extra del título */
+  font-size: 25px;                /* Tamaño de la letra */
+  font-weight: 700;               /* Grosor normal/medio de la letra */
+}
